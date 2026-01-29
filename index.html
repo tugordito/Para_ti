@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para Hegay 🌹</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="effects"></canvas>
+
+<!-- Música -->
+<audio id="music" loop>
+  <source src="musica.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Login -->
+<div class="login" id="loginBox">
+  <h2>🌿 Un jardín secreto</h2>
+  <p>Solo alguien especial puede entrar…</p>
+
+  <input type="password" id="password" placeholder="Contraseña...">
+  <button onclick="checkPassword()">Entrar</button>
+
+  <p class="error" id="errorMsg"></p>
+</div>
+
+<!-- Sobre -->
+<div class="envelope hidden" id="envelope">
+  <div class="top"></div>
+
+  <div class="letter">
+
+    <h1 class="glow">Hegay Marivi ✨</h1>
+
+    <p class="fadeText">
+      No sé muy bien cómo empezar…
+      pero me nació hacer esto porque tú fuiste especial.
+    </p>
+
+    <p class="fadeText delay">
+      Hay personas que llegan sin aviso,
+      y en poco tiempo se vuelven un pensamiento recurrente,
+      una sonrisa inesperada,
+      un recuerdo bonito.
+    </p>
+
+    <p class="fadeText delay2">
+      Me gustó conocerte.
+      Me gustó hablar contigo,
+      sentir esa conexión que se daba tan natural,
+      incluso a través de una pantalla.
+    </p>
+
+    <p class="fadeText delay3">
+      Hubo momentos simples…
+      pero también hubo momentos intensos,
+      de esos que se sienten distintos,
+      como si el corazón entendiera algo antes que la mente.
+    </p>
+
+    <!-- HOT SUAVE 1 -->
+    <p class="fadeText delay4 hot">
+      Hubo noches en las que tus palabras tenían otro efecto…
+      como si dejaran una tensión bonita en el aire,
+      como si la distancia desapareciera por un instante.
+    </p>
+
+    <p class="fadeText delay5">
+      Y aunque todo fuera virtual,
+      se sintió real…
+      porque la conexión no siempre depende de lo físico,
+      a veces depende de lo que se provoca en el alma.
+    </p>
+
+    <!-- HOT SUAVE 2 -->
+    <p class="fadeText delay6 hot">
+      Hubo esa chispa…
+      esa parte nuestra que era un secreto dulce,
+      una complicidad,
+      una forma de mirarnos con palabras.
+    </p>
+
+    <p class="fadeText delay7">
+      Yo no escribo esto para pedirte algo,
+      ni para cambiar tu camino,
+      solo quería dejarte este detalle…
+      como una rosa que no se marchita en el tiempo.
+    </p>
+
+    <p class="fadeText delay8">
+      Porque lo que fue bonito,
+      merece recordarse bonito.
+    </p>
+
+    <!-- HOT SUAVE 3 -->
+    <p class="fadeText delay9 hot">
+      Y sí…
+      siempre guardaré esa parte intensa de nosotros,
+      esa sensación de “algo especial está pasando”,
+      aunque fuera solo por instantes.
+    </p>
+
+    <p class="fadeText delay10 final">
+      Gracias por existir en un pedacito de mi historia 🌹🌿  
+      Te deseo paz, sonrisas…  
+      y recuerdos bonitos.
+    </p>
+
+    <button onclick="toggleMusic()">🎵 Música</button>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
